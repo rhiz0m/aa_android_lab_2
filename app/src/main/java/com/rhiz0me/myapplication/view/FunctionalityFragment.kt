@@ -100,10 +100,8 @@ class FunctionalityFragment : Fragment() {
 
         apiBtn.setOnClickListener() {
             binding.apiInfoContainer.isVisible = true
+            showPosts()
         }
-
-
-        showPosts()
 
         return view
     }
